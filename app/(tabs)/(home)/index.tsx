@@ -5,6 +5,7 @@ import { usePlantStore } from "@/store/plantsStore";
 import { PlantCard } from "@/components/PlantCard";
 import { PlantlyButton } from "@/components/PlantlyButton";
 
+// app/(tabs)/(home)/index.tsx
 export default function App() {
   const router = useRouter();
   const plants = usePlantStore((state) => state.plants);
